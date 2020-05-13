@@ -40,12 +40,12 @@ const Skills = () => {
       <div className='side-head'>Server-side development</div>
       <div className='skills' style={{ display: 'flex' }}>
         <div>
-          <a href='https://reactjs.org/'>
+          <a href='https://nodejs.org/en/'>
             <img src={node} alt='' />
           </a>
         </div>
         <div>
-          <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+          <a href='https://flask.palletsprojects.com/en/1.1.x/'>
             <img src={flask} alt='' />
           </a>
         </div>
@@ -53,12 +53,12 @@ const Skills = () => {
       <div className='side-head'>Databases</div>
       <div className='skills' style={{ display: 'flex' }}>
         <div>
-          <a href='https://reactjs.org/'>
+          <a href='https://www.mysql.com/'>
             <img src={mysql} alt='' />
           </a>
         </div>
         <div>
-          <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+          <a href='https://www.mongodb.com/'>
             <img src={mongo} alt='' />
           </a>
         </div>
