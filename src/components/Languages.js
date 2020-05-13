@@ -12,13 +12,19 @@ const Languages = () => {
       <div className='bio'>{content}</div>
       <div className='skills' style={{ display: 'flex' }}>
         <div>
-          <img style={{ width: '150px' }} src={python} alt='' />
+          <a href='https://www.python.org/'>
+            <img style={{ width: '150px' }} src={python} alt='' />
+          </a>
         </div>
         <div>
-          <img src={js} alt='' />
+          <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+            <img src={js} alt='' />
+          </a>
         </div>
         <div>
-          <img src={c} alt='' />
+          <a href='https://www.cprogramming.com/'>
+            <img src={c} alt='' />
+          </a>
         </div>
       </div>
     </div>
