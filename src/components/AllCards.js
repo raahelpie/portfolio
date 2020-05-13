@@ -6,15 +6,9 @@ import githubFinder from './githubFinder.png';
 import gvp from './gvp.png';
 
 const AllCards = (props) => {
-  if (props.subsec == 'Work') {
+  if (props.subsec === 'Work') {
     return (
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-around',
-          alignItems: 'center',
-        }}
-      >
+      <div className='allCards'>
         <Card
           image={viewCount}
           content={'raahelpie/viewCount'}
@@ -32,14 +26,9 @@ const AllCards = (props) => {
         />
       </div>
     );
-  } else if (props.subsec == 'Education') {
+  } else if (props.subsec === 'Education') {
     return (
-      <div
-        style={{
-          display: 'flex',
-          marginTop: '30px',
-        }}
-      >
+      <div className='allCards'>
         <Card
           image={gvp}
           content={'gvpce.ac.in'}

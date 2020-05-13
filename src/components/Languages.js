@@ -12,7 +12,7 @@ const Languages = () => {
       <div className='bio'>{content}</div>
       <div className='skills' style={{ display: 'flex' }}>
         <div>
-          <img style={{ width: '170px' }} src={python} alt='' />
+          <img style={{ width: '150px' }} src={python} alt='' />
         </div>
         <div>
           <img src={js} alt='' />

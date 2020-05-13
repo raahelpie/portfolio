@@ -12,7 +12,7 @@ const Skills = () => {
       <div className='bio'>{content}</div>
       <div className='skills' style={{ display: 'flex' }}>
         <div>
-          <img style={{ width: '130px', padding: '0px' }} src={react} alt='' />
+          <img src={react} alt='' />
         </div>
         <div>
           <img src={js} alt='' />
