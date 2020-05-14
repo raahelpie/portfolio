@@ -28,7 +28,17 @@ const AllCards = (props) => {
     );
   } else if (props.subsec === 'Education') {
     return (
-      <div className='allCards'>
+      <div
+        className='allCards'
+        style={{
+          marginTop: '20px',
+          marginLeft: '0',
+          padding: '0',
+          width: '40%',
+          alignItems: 'left',
+          justifyContent: 'space-around',
+        }}
+      >
         <Card
           image={gvp}
           content={'gvpce.ac.in'}
