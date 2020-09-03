@@ -13,7 +13,7 @@ const Languages = () => {
       <div className='skills' style={{ display: 'flex' }}>
         <div>
           <a href='https://www.python.org/'>
-            <img style={{ width: '150px' }} src={python} alt='' />
+            <img src={python} alt='' />
           </a>
         </div>
         <div>
@@ -21,11 +21,11 @@ const Languages = () => {
             <img src={js} alt='' />
           </a>
         </div>
-        <div>
+        {/* <div>
           <a href='https://www.cprogramming.com/'>
             <img src={c} alt='' />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

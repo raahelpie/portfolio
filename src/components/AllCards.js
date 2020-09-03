@@ -11,39 +11,25 @@ const AllCards = (props) => {
       <div className='allCards'>
         <Card
           image={viewCount}
-          content={'raahelpie/viewCount'}
+          content={'viewCount'}
           link='https://github.com/raahelpie/viewCount'
         />
         <Card
           image={githubFinder}
-          content={'raahelpie/github-finder'}
+          content={'github-finder'}
           link='https://github.com/raahelpie/github-finder'
         />
         <Card
           image={covid19}
-          content={'raahelpie/covid19'}
+          content={'covid19-data-visuals'}
           link='https://github.com/raahelpie/covid19-data-visuals'
         />
       </div>
     );
   } else if (props.subsec === 'Education') {
     return (
-      <div
-        className='allCards'
-        style={{
-          marginTop: '20px',
-          marginLeft: '0',
-          padding: '0',
-          width: '40%',
-          alignItems: 'left',
-          justifyContent: 'space-around',
-        }}
-      >
-        <Card
-          image={gvp}
-          content={'gvpce.ac.in'}
-          link='https://www.gvpce.ac.in'
-        />
+      <div className='allCards ggvv'>
+        <Card image={gvp} content={'GVPCE'} link='http://gvpce.ac.in' />
       </div>
     );
   }

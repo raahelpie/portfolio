@@ -57,11 +57,11 @@ const Skills = () => {
             <img src={mysql} alt='' />
           </a>
         </div>
-        <div>
+        {/* <div>
           <a href='https://www.mongodb.com/'>
             <img src={mongo} alt='' />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
